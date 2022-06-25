@@ -34,6 +34,12 @@
     	<version>5.0.0</version>
     	<scope> runtime </scope> <!--Este alcance indica que la dependencia no es necesaria para la compilación, sino para la ejecución. Está en el tiempo de ejecución y en las rutas de prueba, pero no en la ruta de compilación.  -->
 	</dependency>
+	
+	<dependency>
+	<groupid>org.yaml</groupid>
+	<artifactid>snakeyaml</artifactid>
+	<version>1.23</version>
+	</dependency>
 		 
 	</dependencies>
 	
